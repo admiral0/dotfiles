@@ -11,3 +11,8 @@ asdf plugin-add neovim
 asdf plugin-add golang
 
 asdf install
+
+
+
+# Fonts
+fc-cache -f

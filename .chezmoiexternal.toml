@@ -3,3 +3,7 @@
     url = "https://github.com/asdf-vm/asdf/archive/refs/tags/v0.10.2.tar.gz"
     stripComponents = 1
     exact = true
+[".local/share/fonts/jetbrains"]
+    type = "archive"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip"
+    exact = true
