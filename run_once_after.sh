@@ -12,7 +12,10 @@ asdf plugin-add golang
 
 asdf install
 
-
+# install lvim
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+# lvim symlink
+ln -sv $HOME/.local/bin/lvim $HOME/bin
 
 # Fonts
 fc-cache -f

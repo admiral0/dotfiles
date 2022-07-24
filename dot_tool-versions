@@ -1,5 +1,5 @@
-poetry 1.1.12
-python 3.10.1
-golang 1.18rc1
+python 3.10.5
+golang 1.18.4
 rust stable
 neovim stable
+nodejs 18.6.0
