@@ -74,6 +74,10 @@ plugins=(git dnf asdf)
 
 ZSH_DISABLE_COMPFIX="true"
 
+
+# spaceship configuration
+SPACESHIP_PROMPT_SEPARATE_LINE=false
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -103,6 +107,7 @@ export EDITOR='lvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias prime-run="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
+alias vim=lvim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
